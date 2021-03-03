@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-color: #ccffff;
+}
+
+div {
+  padding: 5px;
+}
+
+.container {
+  margin: auto;
+  font-family: monospace, sans-serif, Arial;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: monospace, sans-serif, Arial;
+  font-size: 45px;
+}
+
+.player1 {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+}
+
+.player2 {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+}
+
+section {
+  text-align: center;
+  display: inline-block;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ninesquares {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.onesquare {
+  border: 1px solid #000000;
+  cursor: pointer;
+  margin: -1px 0 0 -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 120px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding-left: 0;
+}
+
+.ending {
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 25px;
+}

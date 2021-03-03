@@ -1,0 +1,1 @@
+New project for The Odin Project where one can learn arrays in JS.
